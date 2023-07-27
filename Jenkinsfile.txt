@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Clone') {
             steps {
-             git   "https://github.com/krnetworktraining1/openshifts2i.git"
+             git   "https://github.com/sudoaptgetcode/openshifts2i.git"
             }
         }
         stage('Docker build') {
